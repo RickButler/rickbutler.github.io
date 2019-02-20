@@ -80,4 +80,3 @@ theme: minos
 deploy:
   type: git   
   repo: https://github.com/RickButler/rickbutler.github.io.git
-  branch: master #published
