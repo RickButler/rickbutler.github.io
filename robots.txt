@@ -1,0 +1,5 @@
+# https://rickbutler.com/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://rickbutler.com/sitemap.xml
