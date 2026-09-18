@@ -1,0 +1,3 @@
+# _config.yml is intentionally tracked here (vendored theme) so the site is
+# reproducible. Upstream Minos ignores it; that rule is removed on purpose.
+node_modules

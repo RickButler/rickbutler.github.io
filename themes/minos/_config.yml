@@ -1,0 +1,52 @@
+# =============================================================================
+# Minos theme configuration for rickbutler.com
+#
+# Reconstructed from the deployed site's rendered HTML so the repo can rebuild
+# the live site on its own. Upstream Minos ignores this file via .gitignore
+# (that rule has been removed here so the config stays version-controlled).
+# Theme config keys are merged with the site _config.yml by get_config().
+# =============================================================================
+
+# Navbar brand logo defaults to the theme asset /images/logo.png when unset.
+
+# Main navigation menu (label: url)
+menu:
+  Résumé: /resume
+  Blog: /blog
+  About: /about
+
+# Icon links on the right side of the navbar
+navbar_links:
+  GitHub:
+    icon: fab fa-github
+    url: https://github.com/rickbutler
+
+# Links shown in the footer
+footer_links:
+  GitHub: https://github.com/rickbutler
+
+# Site favicon. NOTE: add source/favicon.png -- it is referenced but missing
+# on the live site, so it currently 404s.
+favicon: /favicon.png
+
+# Search box (Insight search; the theme generates /content.json for it)
+search:
+  type: insight
+
+# Article rendering options
+article:
+  # highlight.js code color theme
+  highlight: railscasts
+
+# Open Graph / Twitter Card metadata
+open_graph:
+  twitter_id: _rickbutler
+  twitter_site: https://twitter.com/_rickbutler
+
+# Front-end plugins. Order here controls the script order rendered on the page.
+plugins:
+  google-analytics:
+    tracking_id: UA-30959590-1
+  mathjax:
+  gallery:
+  clipboard:
