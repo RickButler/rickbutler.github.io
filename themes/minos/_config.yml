@@ -35,6 +35,11 @@ comment:
   type: disqus
   shortname: rickbutler
 
+# Social share buttons (ShareThis) on post pages
+share:
+  type: sharethis
+  install_url: '//platform-api.sharethis.com/js/sharethis.js#property=5c6d96ab7056550011c4a9fe&product=social-ab'
+
 # Search box (Insight search; the theme generates /content.json for it)
 search:
   type: insight
