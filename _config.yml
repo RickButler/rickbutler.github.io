@@ -5,15 +5,15 @@
 # Site
 title: Rick Butler
 subtitle: Rick Butler Blog
-description: Rick Butler Personal Blog and Resume
-keywords: Rick Butler Blog Resume
+description: Personal blog and résumé of Rick Butler, a software engineer writing about JavaScript, web development, and DIY projects.
+keywords: Rick Butler, software engineer, JavaScript, Ampersand.js, web development, DIY, blog, résumé
 author: Rick Butler
 language: en
 timezone: EST
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://rickbutler.com
+url: https://rickbutler.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,6 +74,18 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: minos
+
+# SEO: sitemap (hexo-generator-sitemap)
+sitemap:
+  path: sitemap.xml
+
+# SEO: Atom feed (hexo-generator-feed)
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
