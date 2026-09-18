@@ -29,6 +29,12 @@ footer_links:
 # on the live site, so it currently 404s.
 favicon: /favicon.png
 
+# Comments (Disqus). `comments: true` enables them site-wide on post pages.
+comments: true
+comment:
+  type: disqus
+  shortname: rickbutler
+
 # Search box (Insight search; the theme generates /content.json for it)
 search:
   type: insight
